@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .user__avatar {
+    border-radius: 50%;
+    width: 45px;
+  }
+  
+  .header {
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    z-index: 100;
+    top: 0;
+    box-shadow: 0 5px 8px -9px rgba(0, 0, 0, 0.75);
+  }
+  
+  .header__left {
+      padding-left: 100px;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  .header__middle {
+    display: flex;
+    padding-left: 200px;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .header__option .material-icons {
+    font-size: xx-large;
+    color: gray;
+  }
+  
+  .header__option:hover .material-icons {
+    color: #2e81f4;
+  }
+  
+  .header__option {
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    cursor: pointer;
+  }
+  
+  .header__option.active .material-icons {
+    color: #2e81f4;
+  }
+  
+  .header__option.active {
+    border-bottom: 4px solid #2e81f4;
+  }
+  
+  .header__option:hover {
+    background-color: #eff2f5;
+    border-radius: 10px;
+    align-items: center;
+    padding: 0 30px;
+    border-bottom: none;
+  }
+  
+  .header__info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header__info h4 {
+    margin-left: 10px;
+  }
+  
+  .header__right {
+      padding-left: 200px;
+    display: flex;
+    align-items: left;
+  }
+  
+  .header__right .material-icons {
+    color: gray;
+    margin: 0 10px;
+  }
+  
+  .header__right .material-icons:hover {
+    cursor: pointer;
+  }
+
+  .second_head{
+            padding-left: 330px;  
+  }
+
+
+
+ .header__input{
+      
+      padding-left: 330px;
+      
+      margin-top: 20px;
+      display: flex;
+    background-color: white;
+    border-radius: 999px;
+  }
+
+  .header__input input {
+    border: none;
+    align-items: center;
+    background-color: transparent;
+    outline-width: 0;
+  }
+  
+  
+
+.user_second{
+    padding-left: 330px;
+    border-radius: 50%;
+    width: 45px;
+}
+
+.fouth_line{
+    padding-left: 330px;
+    padding-top: 40px;
+    font-family:bold ;
+}
+
+
+.post__top {
+    display: flex;
+    position: relative;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .post__avatar {
+    margin-right: 6px;
+  }
+  
+  .post__topInfo h3 {
+    font-size: medium;
+  }
+  
+  .post__topInfo p {
+    font-size: small;
+    color: gray;
+  }
